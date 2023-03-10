@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 
-var mongodbURL = 'mongodb+srv://daorue:tuhermana94@cluster0.ngs84ho.mongodb.net/PizzaApp'
+// aqui va la URL de mi repositorio, lo borré por seguridad ()
+
+var mongodbURL = 'mongodb+srv://xxxxxxxxxxxxxxxx@cluster0.ngs84ho.mongodb.net/PizzaApp'
 
 mongoose.connect(mongodbURL, { useUnifiedTopology: true, useNewUrlParser: true })
 
